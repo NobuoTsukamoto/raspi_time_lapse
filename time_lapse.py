@@ -18,5 +18,6 @@ def cameraCapture():
     camera.capture("/home/pi/" + now_string + "_image.jpg")
 
 if __name__ == '__main__':
+    # test
     cameraCapture()
 
